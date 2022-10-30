@@ -1,0 +1,16 @@
+[workspace]
+
+members = [
+    "programs/*/*",
+]
+
+exclude = [
+    "programs/experimental/matcha",
+    "programs/ai-stuff/ai21",
+    "programs/fun/pixelui",
+    "programs/archived/*",
+    "programs/archived/translate.rs"
+]
+
+[profile.test]
+opt-level = 2

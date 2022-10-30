@@ -1,0 +1,17 @@
+[[bin]]
+name = "wikunzip"
+path = "wikunzip.rs"
+
+[dependencies]
+crossbeam = "0.8.1"
+parse_wiki_text = "0.1.5"
+quick-xml = "0.23.0"
+
+[dependencies.term_macros]
+path = "../../shared/term_macros"
+
+[package]
+authors = ["Anonymous"]
+edition = "2018"
+name = "wikunzip"
+version = "0.1.0"

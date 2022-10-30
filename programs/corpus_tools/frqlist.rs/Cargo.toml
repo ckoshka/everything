@@ -1,0 +1,15 @@
+[[bin]]
+name = "frqlist"
+path = "frqlist.rs"
+
+[dependencies]
+compact_str = "0.5"
+
+[dependencies.term_macros]
+path = "../../shared/term_macros"
+
+[package]
+authors = ["Anonymous"]
+edition = "2018"
+name = "frqlist"
+version = "0.1.0"

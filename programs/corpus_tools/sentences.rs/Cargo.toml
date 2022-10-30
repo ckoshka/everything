@@ -1,0 +1,11 @@
+[[bin]]
+name = "sentences"
+path = "sentences.rs"
+[dependencies.term_macros]
+path = "../../shared/term_macros"
+
+[package]
+authors = ["Anonymous"]
+edition = "2018"
+name = "sentences"
+version = "0.1.0"

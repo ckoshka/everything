@@ -1,0 +1,11 @@
+[[bin]]
+name = "dicer"
+path = "dicer.rs"
+[dependencies.term_macros]
+path = "../../shared/term_macros"
+
+[package]
+authors = ["Anonymous"]
+edition = "2018"
+name = "dicer"
+version = "0.1.0"

@@ -1,0 +1,16 @@
+[[bin]]
+name = "pinyin"
+path = "pinyin.rs"
+
+[dependencies]
+chinese_segmenter = "1.0.1"
+pinyin = "0.9"
+
+[dependencies.term_macros]
+path = "../../shared/term_macros"
+
+[package]
+authors = ["Anonymous"]
+edition = "2018"
+name = "pinyin"
+version = "0.1.0"

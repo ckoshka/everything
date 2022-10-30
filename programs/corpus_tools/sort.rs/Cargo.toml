@@ -1,0 +1,11 @@
+[[bin]]
+name = "sort"
+path = "sort.rs"
+[dependencies.term_macros]
+path = "../../shared/term_macros"
+
+[package]
+authors = ["Anonymous"]
+edition = "2018"
+name = "sort"
+version = "0.1.0"

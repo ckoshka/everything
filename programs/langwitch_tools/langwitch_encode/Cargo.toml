@@ -1,0 +1,17 @@
+[package]
+name = "langwitch_encode"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rmp-serde = "1.1.0"
+unicode-segmentation = "1.7.1"
+nohash-hasher = "0.2.0"
+fnv = "1.0"
+rayon = "1.5.3"
+dashmap = "5.4.0"
+
+[dependencies.term_macros]
+path = "../../shared/term_macros"

@@ -1,0 +1,16 @@
+[[bin]]
+name = "frqcheck"
+path = "frqcheck.rs"
+
+[dependencies]
+fnv = "1.0.7"
+nohash-hasher = "0.2.0"
+
+[dependencies.term_macros]
+path = "../../shared/term_macros"
+
+[package]
+authors = ["Anonymous"]
+edition = "2018"
+name = "frqcheck"
+version = "0.1.0"

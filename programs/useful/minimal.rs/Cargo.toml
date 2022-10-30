@@ -1,0 +1,21 @@
+[[bin]]
+name = "minimal"
+path = "minimal.rs"
+
+[dependencies]
+fnv = "1.0.7"
+nohash-hasher = "0.2.0"
+rayon = "1.5.3"
+
+[dependencies.mimalloc]
+default-features = false
+version = "0.1"
+
+[dependencies.term_macros]
+path = "../../shared/term_macros"
+
+[package]
+authors = ["Anonymous"]
+edition = "2018"
+name = "minimal"
+version = "0.1.0"

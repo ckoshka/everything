@@ -1,0 +1,14 @@
+[[bin]]
+name = "frqsort"
+path = "frqsort.rs"
+
+[dependencies]
+dashmap = "*"
+memmap = "0.7.0"
+rayon = "1.5.3"
+
+[package]
+authors = ["Anonymous"]
+edition = "2018"
+name = "frqsort"
+version = "0.1.0"

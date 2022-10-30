@@ -1,0 +1,11 @@
+[[bin]]
+name = "lengthfilter"
+path = "lengthfilter.rs"
+[dependencies.term_macros]
+path = "../../shared/term_macros"
+
+[package]
+authors = ["Anonymous"]
+edition = "2018"
+name = "lengthfilter"
+version = "0.1.0"

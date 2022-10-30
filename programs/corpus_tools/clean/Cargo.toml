@@ -1,0 +1,11 @@
+[[bin]]
+name = "clean"
+path = "clean.rs"
+[dependencies.term_macros]
+path = "../../shared/term_macros"
+
+[package]
+authors = ["Anonymous"]
+edition = "2018"
+name = "clean"
+version = "0.1.0"

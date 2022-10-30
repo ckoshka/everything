@@ -1,0 +1,19 @@
+[package]
+name = "qc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fnv = "1.0.7"
+nohash-hasher = "0.2.0"
+dashmap = "5.4"
+rayon = "1.5.3"
+unicode-segmentation = "1.7.1"
+itertools = "0.10"
+memmap = "0.7"
+
+[dependencies.term_macros]
+path = "../../shared/term_macros"
+
