@@ -1,5 +1,5 @@
 [[bin]]
-name = "sort"
+name = "sorter"
 path = "sort.rs"
 [dependencies.term_macros]
 path = "../../shared/term_macros"
@@ -7,5 +7,5 @@ path = "../../shared/term_macros"
 [package]
 authors = ["Anonymous"]
 edition = "2018"
-name = "sort"
+name = "sorter"
 version = "0.1.0"

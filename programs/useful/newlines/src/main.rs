@@ -18,7 +18,7 @@ fn main() {
             let lambda: &(dyn Fn(&&u8) -> bool + Send + Sync) = if lines {
                 &|b: &&u8| **b == b'\n'
             } else if words {
-                &|b: &&u8| **b == b'\n'
+                &|b: &&u8| **b == b' '
             } else if chars {
                 &|_: &&u8| true
             } else {
